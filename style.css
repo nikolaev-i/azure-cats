@@ -8,7 +8,7 @@ h1 {
   position: absolute;
   color: #0067b8;
   top: 50px;
-  left: 200px;
+  left: 210px;
 }
 
 .img {
@@ -27,11 +27,21 @@ h1 {
   top: 200px;
 }
 
+.cat1box .azure-backup {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+}
+
 .azure-blob {
   position: absolute;
   max-height: 100%;
   left: 700px;
   top: 200px;
+}
+
+.cat2box .azure-blob {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
 }
 
 .azure-content {
@@ -41,11 +51,21 @@ h1 {
   top: 200px;
 }
 
+.cat3box .azure-content {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+}
+
 .azure-cosmos {
   position: absolute;
   max-height: 100%;
   left: 100px;
   top: 650px;
+}
+
+.cat4box .azure-cosmos {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
 }
 
 .azure-devops {
@@ -55,11 +75,21 @@ h1 {
   top: 650px;
 }
 
+.cat5box .azure-devops {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+}
+
 .azure-kubernetes {
   position: absolute;
   max-height: 100%;
   left: 1300px;
   top: 650px;
+}
+
+.cat6box .azure-kubernetes {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
 }
 
 .azure-recovery {
@@ -69,6 +99,11 @@ h1 {
   top: 1100px;
 }
 
+.cat7box .azure-recovery {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+}
+
 .azure-vm {
   position: absolute;
   max-height: 100%;
@@ -76,9 +111,19 @@ h1 {
   top: 1100px;
 }
 
+.cat8box .azure-vm {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+}
+
 .ms-entra {
   position: absolute;
   max-height: 100%;
   left: 1300px;
   top: 1100px;
+}
+
+.cat9box .ms-entra {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
 }
