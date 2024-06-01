@@ -17,12 +17,68 @@ h1 {
   height: auto;
   max-width: 100%;
   top: 40px;
-  left: 80px;
+  left: 100px;
 }
 
 .azure-backup {
   position: absolute;
   max-height: 100%;
-  left: 80px;
-  top: 300px;
+  left: 100px;
+  top: 200px;
+}
+
+.azure-blob {
+  position: absolute;
+  max-height: 100%;
+  left: 700px;
+  top: 200px;
+}
+
+.azure-content {
+  position: absolute;
+  max-height: 100%;
+  left: 1300px;
+  top: 200px;
+}
+
+.azure-cosmos {
+  position: absolute;
+  max-height: 100%;
+  left: 100px;
+  top: 650px;
+}
+
+.azure-devops {
+  position: absolute;
+  max-height: 100%;
+  left: 700px;
+  top: 650px;
+}
+
+.azure-kubernetes {
+  position: absolute;
+  max-height: 100%;
+  left: 1300px;
+  top: 650px;
+}
+
+.azure-recovery {
+  position: absolute;
+  max-height: 100%;
+  left: 100px;
+  top: 1100px;
+}
+
+.azure-vm {
+  position: absolute;
+  max-height: 100%;
+  left: 700px;
+  top: 1100px;
+}
+
+.ms-entra {
+  position: absolute;
+  max-height: 100%;
+  left: 1300px;
+  top: 1100px;
 }
