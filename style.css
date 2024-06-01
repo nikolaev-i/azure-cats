@@ -1,0 +1,28 @@
+body {
+  background-color: #222222;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline;
+  position: absolute;
+  color: #0067b8;
+  top: 50px;
+  left: 200px;
+}
+
+.img {
+  width: 100px;
+  position: absolute;
+  height: auto;
+  max-width: 100%;
+  top: 40px;
+  left: 80px;
+}
+
+.azure-backup {
+  position: absolute;
+  max-height: 100%;
+  left: 80px;
+  top: 300px;
+}
