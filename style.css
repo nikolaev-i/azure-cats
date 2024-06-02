@@ -332,3 +332,12 @@ h5 {
   color: #ffffff;
   text-align: center;
 }
+
+.msentra-icon {
+  width: 60px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 1435px;
+  left: 1540px;
+}
