@@ -1,8 +1,10 @@
 body {
+  display: flex;
   background-color: #222222;
 }
 
 h1 {
+  display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline;
   position: absolute;
@@ -12,6 +14,7 @@ h1 {
 }
 
 h5 {
+  display: flex;
   position: relative;
   bottom: 10px;
   left: 50%;
@@ -24,6 +27,7 @@ h5 {
 }
 
 .img {
+  display: flex;
   width: 100px;
   position: absolute;
   height: auto;
@@ -33,6 +37,7 @@ h5 {
 }
 
 .azure-backup {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 100px;
@@ -41,12 +46,14 @@ h5 {
 }
 
 .cat1box .azure-backup {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
   border-radius: 25px;
 }
 
 .cat1box .backup-text {
+  display: flex;
   position: absolute;
   left: 310px;
   top: 510px;
@@ -57,6 +64,7 @@ h5 {
 }
 
 .azure-backup-icon {
+  display: flex;
   width: 100px;
   position: absolute;
   height: auto;
@@ -66,6 +74,7 @@ h5 {
 }
 
 .azure-blob {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 700px;
@@ -74,11 +83,13 @@ h5 {
 }
 
 .cat2box .azure-blob {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat2box .blob-text {
+  display: flex;
   position: absolute;
   left: 890px;
   top: 510px;
@@ -89,6 +100,7 @@ h5 {
 }
 
 .azure-blob-icon {
+  display: flex;
   width: 85px;
   position: absolute;
   height: auto;
@@ -98,6 +110,7 @@ h5 {
 }
 
 .azure-content {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 1300px;
@@ -106,11 +119,13 @@ h5 {
 }
 
 .cat3box .azure-content {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat3box .content-text {
+  display: flex;
   position: absolute;
   left: 1450px;
   top: 510px;
@@ -121,6 +136,7 @@ h5 {
 }
 
 .azure-content-icon {
+  flex: initial;
   width: 85px;
   position: absolute;
   height: auto;
@@ -130,6 +146,7 @@ h5 {
 }
 
 .azure-cosmos {
+  flex: initial;
   position: absolute;
   max-height: 100%;
   left: 100px;
@@ -138,11 +155,13 @@ h5 {
 }
 
 .cat4box .azure-cosmos {
+  flex: initial;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat4box .cosmos-text {
+  display: flex;
   position: absolute;
   left: 300px;
   top: 960px;
@@ -153,6 +172,7 @@ h5 {
 }
 
 .azure-cosmos-icon {
+  display: flex;
   width: 100px;
   position: absolute;
   height: auto;
@@ -162,6 +182,7 @@ h5 {
 }
 
 .azure-devops {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 700px;
@@ -170,11 +191,13 @@ h5 {
 }
 
 .cat5box .azure-devops {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat5box .devops-text {
+  display: flex;
   position: absolute;
   left: 900px;
   top: 960px;
@@ -185,6 +208,7 @@ h5 {
 }
 
 .azure-devops-icon {
+  display: flex;
   width: 55px;
   position: absolute;
   height: auto;
@@ -194,6 +218,7 @@ h5 {
 }
 
 .azure-kubernetes {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 1300px;
@@ -202,11 +227,13 @@ h5 {
 }
 
 .cat6box .azure-kubernetes {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat6box .kubernetes-text {
+  display: flex;
   position: absolute;
   left: 1500px;
   top: 960px;
@@ -217,6 +244,7 @@ h5 {
 }
 
 .azure-kubernetes-icon {
+  display: flex;
   width: 145px;
   position: absolute;
   height: auto;
@@ -226,6 +254,7 @@ h5 {
 }
 
 .azure-recovery {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 100px;
@@ -234,11 +263,13 @@ h5 {
 }
 
 .cat7box .azure-recovery {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat7box .recovery-text {
+  display: flex;
   position: absolute;
   left: 280px;
   top: 1410px;
@@ -249,6 +280,7 @@ h5 {
 }
 
 .azure-recovery-icon {
+  display: flex;
   width: 100px;
   position: absolute;
   height: auto;
@@ -258,6 +290,7 @@ h5 {
 }
 
 .azure-vm {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 700px;
@@ -266,11 +299,13 @@ h5 {
 }
 
 .cat8box .azure-vm {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat8box .virtual-text {
+  display: flex;
   position: absolute;
   left: 865px;
   top: 1410px;
@@ -281,6 +316,7 @@ h5 {
 }
 
 .azure-vm-icon {
+  display: flex;
   width: 60px;
   position: absolute;
   height: auto;
@@ -290,6 +326,7 @@ h5 {
 }
 
 .ms-entra {
+  display: flex;
   position: absolute;
   max-height: 100%;
   left: 1300px;
@@ -298,11 +335,13 @@ h5 {
 }
 
 .cat9box .ms-entra {
+  display: flex;
   background-color: #0067b8;
   padding: 0 0 100px 0px;
 }
 
 .cat9box .msentra-text {
+  display: flex;
   position: absolute;
   left: 1500px;
   top: 1410px;
@@ -313,6 +352,7 @@ h5 {
 }
 
 .msentra-icon {
+  display: flex;
   width: 60px;
   position: absolute;
   height: auto;
