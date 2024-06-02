@@ -32,28 +32,6 @@ h5 {
   left: 100px;
 }
 
-/* .azure-backup {
-  position: absolute;
-  max-height: 100%;
-  left: 100px;
-  top: 200px;
-}
-
-.cat1box .azure-backup {
-  background-color: #0067b8;
-  padding: 0 0 100px 0px;
-}
-
-.cat1box .backup-text {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  color: #ffffff;
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  text-align: center;
-} */
-
 .azure-backup {
   display: block;
   position: absolute;
