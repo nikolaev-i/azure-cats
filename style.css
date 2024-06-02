@@ -11,6 +11,18 @@ h1 {
   left: 210px;
 }
 
+h5 {
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  text-align: center; /* Center the text within its box */
+}
+
 .img {
   width: 100px;
   position: absolute;
@@ -20,7 +32,7 @@ h1 {
   left: 100px;
 }
 
-.azure-backup {
+/* .azure-backup {
   position: absolute;
   max-height: 100%;
   left: 100px;
@@ -30,6 +42,47 @@ h1 {
 .cat1box .azure-backup {
   background-color: #0067b8;
   padding: 0 0 100px 0px;
+}
+
+.cat1box .backup-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  text-align: center;
+} */
+.cat1box .azure-backup {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+  border-radius: 25px;
+}
+
+.azure-backup {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.cat1box .backup-text {
+  position: absolute;
+  left: 310px;
+  top: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.azure-backup-icon {
+  width: 100px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 535px;
+  left: 320px;
 }
 
 .azure-blob {
