@@ -173,6 +173,15 @@ h5 {
   text-align: center;
 }
 
+.azure-cosmos-icon {
+  width: 100px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 985px;
+  left: 320px;
+}
+
 .azure-devops {
   position: absolute;
   max-height: 100%;
@@ -194,6 +203,15 @@ h5 {
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+}
+
+.azure-devops-icon {
+  width: 55px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 985px;
+  left: 930px;
 }
 
 .azure-kubernetes {
@@ -219,6 +237,15 @@ h5 {
   text-align: center;
 }
 
+.azure-kubernetes-icon {
+  width: 145px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 960px;
+  left: 1500px;
+}
+
 .azure-recovery {
   position: absolute;
   max-height: 100%;
@@ -242,6 +269,15 @@ h5 {
   text-align: center;
 }
 
+.azure-recovery-icon {
+  width: 100px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 1440px;
+  left: 320px;
+}
+
 .azure-vm {
   position: absolute;
   max-height: 100%;
@@ -263,6 +299,15 @@ h5 {
   font-weight: bold;
   color: #ffffff;
   text-align: center;
+}
+
+.azure-vm-icon {
+  width: 60px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 1435px;
+  left: 925px;
 }
 
 .ms-entra {
