@@ -53,17 +53,18 @@ h5 {
   left: 50%;
   text-align: center;
 } */
-.cat1box .azure-backup {
-  background-color: #0067b8;
-  padding: 0 0 100px 0px;
-  border-radius: 25px;
-}
 
 .azure-backup {
   display: block;
   position: absolute;
   left: 100px;
   top: 200px;
+}
+
+.cat1box .azure-backup {
+  background-color: #0067b8;
+  padding: 0 0 100px 0px;
+  border-radius: 25px;
 }
 
 .cat1box .backup-text {
@@ -98,6 +99,25 @@ h5 {
   padding: 0 0 100px 0px;
 }
 
+.cat2box .blob-text {
+  position: absolute;
+  left: 890px;
+  top: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.azure-blob-icon {
+  width: 85px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 530px;
+  left: 925px;
+}
+
 .azure-content {
   position: absolute;
   max-height: 100%;
@@ -109,6 +129,25 @@ h5 {
 .cat3box .azure-content {
   background-color: #0067b8;
   padding: 0 0 100px 0px;
+}
+
+.cat3box .content-text {
+  position: absolute;
+  left: 1450px;
+  top: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.azure-content-icon {
+  width: 85px;
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  top: 540px;
+  left: 1520px;
 }
 
 .azure-cosmos {
