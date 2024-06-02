@@ -147,7 +147,7 @@ h5 {
   height: auto;
   z-index: 1;
   top: 540px;
-  left: 1520px;
+  left: 1510px;
 }
 
 .azure-cosmos {
@@ -163,6 +163,16 @@ h5 {
   padding: 0 0 100px 0px;
 }
 
+.cat4box .cosmos-text {
+  position: absolute;
+  left: 300px;
+  top: 960px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
 .azure-devops {
   position: absolute;
   max-height: 100%;
@@ -174,6 +184,16 @@ h5 {
 .cat5box .azure-devops {
   background-color: #0067b8;
   padding: 0 0 100px 0px;
+}
+
+.cat5box .devops-text {
+  position: absolute;
+  left: 900px;
+  top: 960px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
 }
 
 .azure-kubernetes {
@@ -189,6 +209,16 @@ h5 {
   padding: 0 0 100px 0px;
 }
 
+.cat6box .kubernetes-text {
+  position: absolute;
+  left: 1500px;
+  top: 960px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
 .azure-recovery {
   position: absolute;
   max-height: 100%;
@@ -200,6 +230,16 @@ h5 {
 .cat7box .azure-recovery {
   background-color: #0067b8;
   padding: 0 0 100px 0px;
+}
+
+.cat7box .recovery-text {
+  position: absolute;
+  left: 280px;
+  top: 1410px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
 }
 
 .azure-vm {
@@ -215,6 +255,16 @@ h5 {
   padding: 0 0 100px 0px;
 }
 
+.cat8box .virtual-text {
+  position: absolute;
+  left: 865px;
+  top: 1410px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
 .ms-entra {
   position: absolute;
   max-height: 100%;
@@ -226,4 +276,14 @@ h5 {
 .cat9box .ms-entra {
   background-color: #0067b8;
   padding: 0 0 100px 0px;
+}
+
+.cat9box .msentra-text {
+  position: absolute;
+  left: 1500px;
+  top: 1410px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
 }
